@@ -1,17 +1,18 @@
 {
   "name": "sgrider-webpack-casts",
-  "version": "0.0.1",
-  "description": "Walk through the Webpack (v2) casts from StephenGrider",
+  "version": "0.1.0",
+  "description": "Walk through the Webpack casts from StephenGrider (w/ Webpack v5 instead)",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode development"
   },
   "author": "",
   "license": "Unlicense",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.2.3",
     "babel-preset-env": "^1.7.0",
-    "webpack": "^2.2.0"
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
   }
 }
