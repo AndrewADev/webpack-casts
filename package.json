@@ -4,8 +4,11 @@
   "description": "Walk through the Webpack (v2) casts from StephenGrider",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "author": "",
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "devDependencies": {
+    "webpack": "^2.2.0"
+  }
 }
