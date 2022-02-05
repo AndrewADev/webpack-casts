@@ -9,6 +9,9 @@
   "author": "",
   "license": "Unlicense",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
     "webpack": "^2.2.0"
   }
 }
